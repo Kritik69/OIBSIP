@@ -1,0 +1,41 @@
+.edu-parent {
+    display: flex;
+    flex-direction: column;
+}
+.school-div {
+    border: 1px solid black;
+    border-radius: 10px;
+    width: auto;
+}
+.edu-cards {
+    margin-top: 10px;
+}
+.edu-card-header {
+    font-size: 28px;
+}
+.inner-card{
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    justify-content: space-around;
+}
+.card-left {
+    width: 45%;
+}
+.card-right {
+    width: 45%;
+}
+@media only screen and (max-width: 600px){
+    .inner-card {
+        display: flex;
+        flex-direction: column;
+    }
+    .card-left {
+        width: 100%;
+        margin-top: 10px;
+    }
+    .card-right {
+        width: 100%;
+        margin-top: 10px;
+    }
+}

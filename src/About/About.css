@@ -1,0 +1,40 @@
+.box {
+    width: 100%;
+    height: auto;
+    margin-top: 10px;
+    padding: 1rem;
+    overflow: hidden;
+}
+.prj-links {
+    text-decoration: none;
+    color: black;
+}
+.work-exp {
+    display: flex;
+    flex-wrap: wrap;
+    flex-direction: row;
+    width: auto;
+    justify-content: space-between;
+}
+.work-box {
+    max-width: 49%;
+    height: auto;
+    padding: 1rem;
+    border: 1px solid black;
+    border-radius: 5px;
+}
+@media only screen and (max-width: 600px){
+    .work-exp{
+        align-items: center;
+        display: flex;
+        flex-direction: column;
+    }
+    .work-box {
+        max-width: 95%;
+        height: auto;
+        padding: 1rem;
+        border: 1px solid black;
+        border-radius: 5px;
+        margin-top: 10px;
+    }
+}

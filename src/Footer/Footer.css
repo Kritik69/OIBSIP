@@ -1,13 +1,9 @@
-.footer-main {
+.footer-wrapper {
+    margin-top: 10px;
+    background-color: rgb(29, 29, 29);
+    height: 40px;
     width: 100%;
-    height: 50vh;
-    display: flex;
-    flex-direction: row;
 }
-.foot-heading {
-    color: blanchedalmond;
-}
-.about-main {
-    flex-wrap: wrap;
-    margin: 10px;
+.foot-container {
+    align-items: center;
 }

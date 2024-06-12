@@ -1,28 +1,16 @@
-import './Footer.css';
+import React from 'react'
+import './Footer.css'
 
-function Footer(){
-    return (
-        <>
-            <div className='footer-main'>
-                <div className='about-main'>
-                    <h2 className='foot-heading'>About Us</h2>
-                    <p className='foot-heading'>lorem ipsum randomness is random if random is planned the its not random even when you combine random with random it turns out to be not random</p>
-                </div>
-                <div className='about-main'>
-                    <h2 className='foot-heading'>Contact</h2>
-                    <p className='foot-heading'>lorem ipsum randomness is random if random is planned the its not random even when you combine random with random it turns out to be not random</p>
-                </div>
-                <div className='about-main'>
-                    <h2 className='foot-heading'>More</h2>
-                    <p className='foot-heading'>lorem ipsum randomness is random if random is planned the its not random even when you combine random with random it turns out to be not random</p>
-                </div>
-                <div className='about-main'>
-                    <h2 className='foot-heading'>Others</h2>
-                    <p className='foot-heading'>lorem ipsum randomness is random if random is planned the its not random even when you combine random with random it turns out to be not random</p>
-                </div>
+function Footer() {
+  return (
+    <div className="footer-wrapper">
+        <div className="container foot-container text-center">
+            <div>
+                <h6 className="text-white">Developed by <a href="https://www.linkedin.com/in/kritik-jambusariya-b63162206/" target="_blank" rel="noopener noreferrer">Kritik B Jambusariya</a></h6>
             </div>
-        </>
-    )
+        </div>
+    </div>
+  )
 }
 
-export default Footer;
+export default Footer
